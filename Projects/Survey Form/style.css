@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F092DD;
+    font-family: Helvetica, Arial;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #392F5A;
+
+}
+
+p {
+    text-align: center;
+    color: #392F5A;
+    margin-bottom: 30px;
+}
+
+.form {
+    background: #EEC8E0;
+    color: #392F5A;
+    width: 50%;
+    padding: 35px;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="number"], select {
+    width: 100%;
+    height: 25px;
+    margin: 5px;
+}
+
+/* To remove arrows from number field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* To remove arrows from number field (Firefox Support)*/
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 5px;
+}
+
+#submit-button {
+    text-align: center;
+}
+
+input[type="submit"] {
+    border: 3px solid #A8C7BB;
+    padding: 5px;
+    color: white;
+    background-color: #392F5A;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
