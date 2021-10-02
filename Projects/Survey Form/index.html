@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="form">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Fill in all the required fields</p>
+        <form id="survey-form">
+        <label for="name" id="name-label"><b>Name:</b></label> <br>
+        <input type="text" name="Your Name" id="name" placeholder="Name" required> <br>
+        <label for="email" id="email-label"><b>E-mail:</b></label> <br>
+        <input type="email" id="email" placeholder="Email" required> <br>
+        <label for="number" id="number-label"><b>Phone Number:</b></label> <br>
+        <input type="number" id="number" min="1" max="15" placeholder="Phone Number" required> <br>
+        <label for="birthday" id="dropdown-label"><b>When is your Birthday?</b></label> <br>
+        <input type="date" id="dropdown" required> <br>
+        <label for="gender"><b>Gender:</b></label> <br>
+        <label for="male">Male</label>
+        <input type="radio" id="gender" name="your-gender" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="gender" name="your-gender" value="female" required> <br>
+        <label for="country"><b>Country:</b></label> <br>
+        <select name="country" id="country">
+            <option value="default">Select your country</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="USA">United States</option>
+        </select>
+        <label for="interests"><b>Your Interests:</b></label> <br>
+        <input type="checkbox" id="interest-1" value="Technology">
+        <label for="interest-1">Technology</label> <br>
+        <input type="checkbox" id="interest-2" value="Arts">
+        <label for="interest-2">Arts</label> <br>
+        <input type="checkbox" id="interest-3" value="Movies">
+        <label for="interest-3">Movies</label> <br>
+        <input type="checkbox" id="interest-4" value="Public Speaking">
+        <label for="interest-4">Public Speaking</label> <br>
+        <label for="comments"><b>Drop your comments below:</b></label><br>
+        <textarea id="comments"></textarea> <br>
+        <div id="submit-button">
+            <input type="submit" id="submit" value="submit">
+        </div>
+        </form>
+    </div>
+    
+</body>
+</html>
