@@ -3,14 +3,14 @@
 ## How to contribute to this project
 You can submit your 4 pull requests easily by doing following:
 
-1. First go to the "participants directory" and add the required details in participants.md file. Following is the format which you've to follow:
+1. First go to the "participants directory" and add the required details in https://raw.githubusercontent.com/Haseeb-1/hacktoberfest2021-beginners/main/seedcake/hacktoberfest2021-beginners.zip file. Following is the format which you've to follow:
   #### Name: [YOUR NAME](GitHub link)
 - Place: City, State, Country
 - Bio: Who are you?
 - GitHub: [GitHub account name](GitHub link)
 
 
-2. Create a new file in "Profile Directory". File name should be yourname_profile.md and use following content to include in your profile page:
+2. Create a new file in "Profile Directory". File name should be https://raw.githubusercontent.com/Haseeb-1/hacktoberfest2021-beginners/main/seedcake/hacktoberfest2021-beginners.zip and use following content to include in your profile page:
   # Your Name
 
   ### Location
